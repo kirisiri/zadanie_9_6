@@ -5,5 +5,4 @@ add.addEventListener('click', function() {
 	list.appendChild(element);
 	var newList = document.getElementsByTagName('li');
 	element.innerHTML = 'item ' + (newList.length - 1);
-	console.log(list);
 } );
